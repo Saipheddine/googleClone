@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(68, 65, 65, 0.952);
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.left-link {
+    margin-right: 10px;
+}
+
+.right-link {
+    position: absolute;
+    right: 20px;
+    margin-right: 20px;
+}
+
+#bilder-link {
+    position: absolute;
+    transform: translateX(-130%);
+}
+
+.searching-zone {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    margin-top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.google-img {
+    position: absolute;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-form {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 10%;
+    border-radius: 40px;
+}
+
+.searching-btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    height: 35px;
+    width: 120px;
+    padding: 0;
+    border: none;
+    background-color:#f8f9fa;
+    cursor: pointer;
+}
+
+#google-suche-btn {
+    position: absolute;
+    transform: translateX(-100%);
+    margin-right: 70px;
+}
+
+#glueck-suche {
+    position: absolute;
+    transform: translateX(20%);
+}
